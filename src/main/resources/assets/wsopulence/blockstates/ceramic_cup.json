@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "wsopulence:block/ceramic_cup",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "wsopulence:block/ceramic_cup"
+    },
+    "facing=south": {
+      "model": "wsopulence:block/ceramic_cup",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "wsopulence:block/ceramic_cup",
+      "y": 270
+    }
+  }
+}

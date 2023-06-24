@@ -1,0 +1,9 @@
+{
+    "parent": "wsopulence:block/template/table",
+    "textures": {
+      "top": "wsopulence:block/cherry_table_top",
+      "bottom": "wsopulence:block/cherry_table_bottom",
+      "side": "wsopulence:block/cherry_table_side",
+      "beam_end": "wsopulence:block/cherry_table_beam_end"
+    }
+  }

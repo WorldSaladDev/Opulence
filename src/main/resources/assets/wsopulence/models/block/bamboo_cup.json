@@ -1,0 +1,6 @@
+{
+    "parent": "wsopulence:block/template/cup",
+    "textures": {
+      "cup": "wsopulence:block/bamboo_cup"
+    }
+  }

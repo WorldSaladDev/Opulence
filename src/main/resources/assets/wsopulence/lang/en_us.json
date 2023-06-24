@@ -1,0 +1,22 @@
+{
+  "item_group.wsopulence.opulence_tab": "Opulence",
+
+  "item.wsopulence.wrought_iron_ingot": "Wrought Iron Ingot",
+
+  "block.wsopulence.oak_table": "Oak Table",
+  "block.wsopulence.spruce_table": "Spruce Table",
+  "block.wsopulence.birch_table": "Birch Table",
+  "block.wsopulence.jungle_table": "Jungle Table",
+  "block.wsopulence.acacia_table": "Acacia Table",
+  "block.wsopulence.dark_oak_table": "Dark Oak Table",
+  "block.wsopulence.mangrove_table": "Mangrove Table",
+  "block.wsopulence.cherry_table": "Cherry Table",
+  "block.wsopulence.bamboo_table": "Bamboo Table",
+  "block.wsopulence.crimson_table": "Crimson Table",
+  "block.wsopulence.warped_table": "Warped Table",
+  "block.wsopulence.iron_cup": "Iron Cup",
+  "block.wsopulence.ceramic_cup": "Ceramic Cup",
+  "block.wsopulence.bamboo_cup": "Bamboo Cup",
+  "block.wsopulence.glass_cup": "Glass Cup"
+
+}

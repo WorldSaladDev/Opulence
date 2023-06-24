@@ -1,0 +1,17 @@
+{
+  "replace": false,
+  "values": [
+    "wsopulence:oak_table",
+    "wsopulence:spruce_table",
+    "wsopulence:birch_table",
+    "wsopulence:jungle_table",
+    "wsopulence:acacia_table",
+    "wsopulence:dark_oak_table",
+    "wsopulence:mangrove_table",
+    "wsopulence:cherry_table",
+    "wsopulence:bamboo_table",
+    "wsopulence:crimson_table",
+    "wsopulence:warped_table",
+    "wsopulence:bamboo_cup"
+  ]
+}
