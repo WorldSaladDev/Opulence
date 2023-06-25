@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "wsopulence:table",
+  "pattern": [
+    "$$$",
+    " # ",
+    " # "
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:birch_planks"
+    },
+    "$": {
+      "item": "minecraft:birch_slab"
+    }
+  },
+  "result": {
+    "item": "wsopulence:birch_table"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#$#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:bamboo"
+    },
+    "$": {
+      "item": "minecraft:glass_bottle"
+    }
+  },
+  "result": {
+    "item": "wsopulence:bamboo_cup"
+  }
+}

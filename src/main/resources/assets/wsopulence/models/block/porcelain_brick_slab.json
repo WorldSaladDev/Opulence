@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab",
+  "textures": {
+    "bottom": "wsopulence:block/porcelain_bricks",
+    "side": "wsopulence:block/porcelain_bricks",
+    "top": "wsopulence:block/porcelain_bricks"
+  }
+}

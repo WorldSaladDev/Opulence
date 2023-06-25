@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "wsopulence:concrete_bricks",
+  "pattern": [
+    "##",
+    "##"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:pink_concrete"
+    }
+  },
+  "result": {
+    "item": "wsopulence:pink_concrete_bricks",
+    "count": 4
+  }
+}

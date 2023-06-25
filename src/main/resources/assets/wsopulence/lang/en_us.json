@@ -1,7 +1,8 @@
 {
   "item_group.wsopulence.opulence_tab": "Opulence",
 
-  "item.wsopulence.wrought_iron_ingot": "Wrought Iron Ingot",
+  "item.wsopulence.porcelain_ball": "Porcelain Ball",
+  "item.wsopulence.porcelain_brick": "Porcelain Brick",
 
   "block.wsopulence.oak_table": "Oak Table",
   "block.wsopulence.spruce_table": "Spruce Table",
@@ -14,9 +15,33 @@
   "block.wsopulence.bamboo_table": "Bamboo Table",
   "block.wsopulence.crimson_table": "Crimson Table",
   "block.wsopulence.warped_table": "Warped Table",
+  "block.wsopulence.glass_table": "Glass Table",
+  "block.wsopulence.iron_table": "Iron Table",
   "block.wsopulence.iron_cup": "Iron Cup",
   "block.wsopulence.ceramic_cup": "Ceramic Cup",
   "block.wsopulence.bamboo_cup": "Bamboo Cup",
-  "block.wsopulence.glass_cup": "Glass Cup"
-
+  "block.wsopulence.glass_cup": "Glass Cup",
+  "block.wsopulence.white_plate": "White Plate",
+  "block.wsopulence.telescope": "Telescope",
+  "block.wsopulence.white_concrete_bricks": "White Concrete Bricks",
+  "block.wsopulence.light_gray_concrete_bricks": "Light Gray Concrete Bricks",
+  "block.wsopulence.gray_concrete_bricks": "Gray Concrete Bricks",
+  "block.wsopulence.black_concrete_bricks": "Black Concrete Bricks",
+  "block.wsopulence.brown_concrete_bricks": "Brown Concrete Bricks",
+  "block.wsopulence.red_concrete_bricks": "Red Concrete Bricks",
+  "block.wsopulence.orange_concrete_bricks": "Orange Concrete Bricks",
+  "block.wsopulence.yellow_concrete_bricks": "Yellow Concrete Bricks",
+  "block.wsopulence.lime_concrete_bricks": "Lime Concrete Bricks",
+  "block.wsopulence.green_concrete_bricks": "Green Concrete Bricks",
+  "block.wsopulence.cyan_concrete_bricks": "Cyan Concrete Bricks",
+  "block.wsopulence.light_blue_concrete_bricks": "Light Blue Concrete Bricks",
+  "block.wsopulence.blue_concrete_bricks": "Blue Concrete Bricks",
+  "block.wsopulence.purple_concrete_bricks": "Purple Concrete Bricks",
+  "block.wsopulence.magenta_concrete_bricks": "Magenta Concrete Bricks",
+  "block.wsopulence.pink_concrete_bricks": "Pink Concrete Bricks",
+  "block.wsopulence.porcelain_bricks": "Porcelain Bricks",
+  "block.wsopulence.porcelain_brick_slab": "Porcelain Brick Slab",
+  "block.wsopulence.porcelain_brick_stairs": "Porcelain Brick Stairs",
+  "block.wsopulence.porcelain_brick_wall": "Porcelain Brick Wall",
+  "block.wsopulence.porcelain_tiles": "Porcelain Tiles"
 }

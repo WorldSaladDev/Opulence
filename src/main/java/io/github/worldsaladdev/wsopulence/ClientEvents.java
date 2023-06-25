@@ -13,5 +13,6 @@ public class ClientEvents {
     @SubscribeEvent
     public static void clientSetup(FMLClientSetupEvent event) {
         ItemBlockRenderTypes.setRenderLayer(BlockInitialization.GLASS_CUP.get(), RenderType.cutout());
+        ItemBlockRenderTypes.setRenderLayer(BlockInitialization.GLASS_TABLE.get(), RenderType.cutout());
     }
 }

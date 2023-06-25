@@ -1,7 +1,31 @@
 {
   "replace": false,
   "values": [
+    "wsopulence:iron_table",
     "wsopulence:iron_cup",
-    "wsopulence:ceramic_cup"
+    "wsopulence:ceramic_cup",
+    "wsopulence:white_plate",
+    "wsopulence:telescope",
+    "wsopulence:white_concrete_bricks",
+    "wsopulence:light_gray_concrete_bricks",
+    "wsopulence:gray_concrete_bricks",
+    "wsopulence:black_concrete_bricks",
+    "wsopulence:brown_concrete_bricks",
+    "wsopulence:red_concrete_bricks",
+    "wsopulence:orange_concrete_bricks",
+    "wsopulence:yellow_concrete_bricks",
+    "wsopulence:lime_concrete_bricks",
+    "wsopulence:green_concrete_bricks",
+    "wsopulence:cyan_concrete_bricks",
+    "wsopulence:light_blue_concrete_bricks",
+    "wsopulence:blue_concrete_bricks",
+    "wsopulence:purple_concrete_bricks",
+    "wsopulence:magenta_concrete_bricks",
+    "wsopulence:pink_concrete_bricks",
+    "wsopulence:porcelain_bricks",
+    "wsopulence:porcelain_brick_slab",
+    "wsopulence:porcelain_brick_stairs",
+    "wsopulence:porcelain_brick_wall",
+    "wsopulence:porcelain_tiles"
   ]
 }

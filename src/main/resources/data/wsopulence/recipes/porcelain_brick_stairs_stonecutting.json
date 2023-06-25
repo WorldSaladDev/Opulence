@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "wsopulence:porcelain_bricks"
+  },
+  "result": "wsopulence:porcelain_brick_stairs"
+}

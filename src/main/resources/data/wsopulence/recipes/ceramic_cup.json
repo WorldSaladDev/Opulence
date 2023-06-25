@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#$#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:clay_ball"
+    },
+    "$": {
+      "item": "minecraft:glass_bottle"
+    }
+  },
+  "result": {
+    "item": "wsopulence:ceramic_cup"
+  }
+}

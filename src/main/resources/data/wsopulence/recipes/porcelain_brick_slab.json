@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "wsopulence:porcelain_bricks"
+    }
+  },
+  "result": {
+    "item": "wsopulence:porcelain_brick_slab",
+    "count": 6
+  }
+}

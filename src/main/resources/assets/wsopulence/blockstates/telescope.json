@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "wsopulence:block/telescope",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "wsopulence:block/telescope"
+    },
+    "facing=south": {
+      "model": "wsopulence:block/telescope",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "wsopulence:block/telescope",
+      "y": 270
+    }
+  }
+}

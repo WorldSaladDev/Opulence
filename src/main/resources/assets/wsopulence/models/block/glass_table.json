@@ -1,0 +1,9 @@
+{
+    "parent": "wsopulence:block/template/glass_table",
+    "textures": {
+      "top": "wsopulence:block/glass_table_top",
+      "bottom": "wsopulence:block/glass_table_bottom",
+      "side": "wsopulence:block/glass_table_side",
+      "beam_end": "wsopulence:block/glass_table_beam_end"
+    }
+  }

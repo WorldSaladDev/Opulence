@@ -2,12 +2,14 @@ package io.github.worldsaladdev.wsopulence.initialization;
 
 import io.github.worldsaladdev.wsopulence.Opulence;
 import io.github.worldsaladdev.wsopulence.blocks.CupBlock;
+import io.github.worldsaladdev.wsopulence.blocks.PlateBlock;
 import io.github.worldsaladdev.wsopulence.blocks.TableBlock;
+import io.github.worldsaladdev.wsopulence.blocks.TelescopeBlock;
 import net.minecraft.world.item.BlockItem;
+import net.minecraft.world.item.DyeColor;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.crafting.RecipeType;
-import net.minecraft.world.level.block.Block;
-import net.minecraft.world.level.block.Blocks;
+import net.minecraft.world.level.block.*;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.material.PushReaction;
 import net.minecraftforge.registries.DeferredRegister;
@@ -21,9 +23,75 @@ import java.util.function.Supplier;
 
 public class BlockInitialization {
 
-//Tables
+
     public static final DeferredRegister<Block> BLOCKS = DeferredRegister.create(ForgeRegistries.BLOCKS, Opulence.MODID);
 
+
+    //Blocks
+    public static final RegistryObject<Block> WHITE_CONCRETE_BRICKS = register("white_concrete_bricks",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.WHITE_CONCRETE)), new Item.Properties());
+
+    public static final RegistryObject<Block> LIGHT_GRAY_CONCRETE_BRICKS = register("light_gray_concrete_bricks",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.LIGHT_GRAY_CONCRETE)), new Item.Properties());
+
+    public static final RegistryObject<Block> GRAY_CONCRETE_BRICKS = register("gray_concrete_bricks",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.GRAY_CONCRETE)), new Item.Properties());
+
+    public static final RegistryObject<Block> BLACK_CONCRETE_BRICKS = register("black_concrete_bricks",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.BLACK_CONCRETE)), new Item.Properties());
+
+    public static final RegistryObject<Block> BROWN_CONCRETE_BRICKS = register("brown_concrete_bricks",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.BROWN_CONCRETE)), new Item.Properties());
+
+    public static final RegistryObject<Block> RED_CONCRETE_BRICKS = register("red_concrete_bricks",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.RED_CONCRETE)), new Item.Properties());
+
+    public static final RegistryObject<Block> ORANGE_CONCRETE_BRICKS = register("orange_concrete_bricks",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.ORANGE_CONCRETE)), new Item.Properties());
+
+    public static final RegistryObject<Block> YELLOW_CONCRETE_BRICKS = register("yellow_concrete_bricks",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.YELLOW_CONCRETE)), new Item.Properties());
+
+    public static final RegistryObject<Block> LIME_CONCRETE_BRICKS = register("lime_concrete_bricks",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.LIME_CONCRETE)), new Item.Properties());
+
+    public static final RegistryObject<Block> GREEN_CONCRETE_BRICKS = register("green_concrete_bricks",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.GREEN_CONCRETE)), new Item.Properties());
+
+    public static final RegistryObject<Block> CYAN_CONCRETE_BRICKS = register("cyan_concrete_bricks",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.CYAN_CONCRETE)), new Item.Properties());
+
+    public static final RegistryObject<Block> LIGHT_BLUE_CONCRETE_BRICKS = register("light_blue_concrete_bricks",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.LIGHT_BLUE_CONCRETE)), new Item.Properties());
+
+    public static final RegistryObject<Block> BLUE_CONCRETE_BRICKS = register("blue_concrete_bricks",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.BLUE_CONCRETE)), new Item.Properties());
+
+    public static final RegistryObject<Block> PURPLE_CONCRETE_BRICKS = register("purple_concrete_bricks",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.PURPLE_CONCRETE)), new Item.Properties());
+
+    public static final RegistryObject<Block> MAGENTA_CONCRETE_BRICKS = register("magenta_concrete_bricks",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.MAGENTA_CONCRETE)), new Item.Properties());
+
+    public static final RegistryObject<Block> PINK_CONCRETE_BRICKS = register("pink_concrete_bricks",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.PINK_CONCRETE)), new Item.Properties());
+
+//Porcelain Blocks
+    public static final RegistryObject<Block> PORCELAIN_BRICKS = register("porcelain_bricks",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.BRICKS).mapColor(DyeColor.LIGHT_BLUE)), new Item.Properties());
+
+    public static final RegistryObject<Block> PORCELAIN_BRICK_STAIRS = register("porcelain_brick_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.BRICK_SLAB).mapColor(DyeColor.LIGHT_BLUE)), new Item.Properties());
+
+    public static final RegistryObject<Block> PORCELAIN_BRICK_SLAB = register("porcelain_brick_stairs",
+            () -> new StairBlock(PORCELAIN_BRICKS.get().defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.BRICK_STAIRS).mapColor(DyeColor.LIGHT_BLUE)), new Item.Properties());
+
+    public static final RegistryObject<Block> PORCELAIN_BRICK_WALL = register("porcelain_brick_wall",
+            () -> new WallBlock(BlockBehaviour.Properties.copy(Blocks.BRICK_WALL).mapColor(DyeColor.LIGHT_BLUE)), new Item.Properties());
+    public static final RegistryObject<Block> PORCELAIN_TILES = register("porcelain_tiles",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.BRICKS).mapColor(DyeColor.LIGHT_BLUE)), new Item.Properties());
+
+//Tables
     public static final RegistryObject<Block> OAK_TABLE = register("oak_table",
         () -> new TableBlock(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS).pushReaction(PushReaction.DESTROY).ignitedByLava().dynamicShape().noOcclusion()), new Item.Properties(), 300);
 
@@ -57,18 +125,32 @@ public class BlockInitialization {
     public static final RegistryObject<Block> WARPED_TABLE = register("warped_table",
             () -> new TableBlock(BlockBehaviour.Properties.copy(Blocks.WARPED_PLANKS).pushReaction(PushReaction.DESTROY).dynamicShape().noOcclusion()), new Item.Properties());
 
-//Cups
+    public static final RegistryObject<Block> GLASS_TABLE = register("glass_table",
+            () -> new TableBlock(BlockBehaviour.Properties.copy(Blocks.GLASS).pushReaction(PushReaction.DESTROY).dynamicShape().noOcclusion()), new Item.Properties());
+
+    public static final RegistryObject<Block> IRON_TABLE = register("iron_table",
+            () -> new TableBlock(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).pushReaction(PushReaction.DESTROY).dynamicShape().noOcclusion()), new Item.Properties());
+
+//Dishes
     public static final RegistryObject<Block> IRON_CUP = register("iron_cup",
             () -> new CupBlock(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).pushReaction(PushReaction.DESTROY).dynamicShape().noOcclusion()), new Item.Properties());
 
     public static final RegistryObject<Block> BAMBOO_CUP = register("bamboo_cup",
-            () -> new CupBlock(BlockBehaviour.Properties.copy(Blocks.BAMBOO_PLANKS).pushReaction(PushReaction.DESTROY).dynamicShape().noOcclusion()), new Item.Properties(), 300);
+            () -> new CupBlock(BlockBehaviour.Properties.copy(Blocks.BAMBOO_PLANKS).pushReaction(PushReaction.DESTROY).ignitedByLava().dynamicShape().noOcclusion()), new Item.Properties(), 300);
 
     public static final RegistryObject<Block> CERAMIC_CUP = register("ceramic_cup",
             () -> new CupBlock(BlockBehaviour.Properties.copy(Blocks.TERRACOTTA).pushReaction(PushReaction.DESTROY).dynamicShape().noOcclusion()), new Item.Properties());
 
     public static final RegistryObject<Block> GLASS_CUP = register("glass_cup",
             () -> new CupBlock(BlockBehaviour.Properties.copy(Blocks.GLASS).pushReaction(PushReaction.DESTROY).dynamicShape().noOcclusion()), new Item.Properties());
+
+    public static final RegistryObject<Block> WHITE_PLATE = register("white_plate",
+            () -> new PlateBlock(BlockBehaviour.Properties.copy(Blocks.TERRACOTTA).pushReaction(PushReaction.DESTROY).dynamicShape().noOcclusion()), new Item.Properties());
+
+
+//Other Furniture
+    public static final RegistryObject<Block> TELESCOPE = register("telescope",
+            () -> new TelescopeBlock(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS).pushReaction(PushReaction.DESTROY).ignitedByLava().dynamicShape().noOcclusion()), new Item.Properties(), 300);
 
     //mundane blockitem
     private static <T extends Block> RegistryObject<T> register(String name, Supplier<T> supplier, Item.Properties properties) {
