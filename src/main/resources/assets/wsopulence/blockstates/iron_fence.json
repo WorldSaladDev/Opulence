@@ -1,0 +1,92 @@
+{
+  "multipart": [
+    {
+      "apply": {
+        "model": "wsopulence:block/iron_fence_post"
+      },
+      "when": {
+        "OR": [
+          {
+            "north": "true",
+            "east": "true"
+          },
+          {
+            "south": "true",
+            "east": "true"
+          },
+          {
+            "north": "true",
+            "west": "true"
+          },
+          {
+            "south": "true",
+            "west": "true"
+          },
+          {
+            "east": "false",
+            "west": "true"
+          },
+          {
+            "east": "true",
+            "west": "false"
+          },
+          {
+            "south": "true",
+            "north": "false"
+          },
+          {
+            "south": "false",
+            "north": "true"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "wsopulence:block/iron_fence_post_no_connections"
+      },
+      "when": {
+        "north": "false",
+        "west": "false",
+        "east": "false",
+        "south": "false"
+      }
+    },
+    {
+      "apply": {
+        "model": "wsopulence:block/iron_fence_side_north",
+        "uvlock": false
+      },
+      "when": {
+        "north": "true"
+      }
+    },
+    {
+      "apply": {
+        "model": "wsopulence:block/iron_fence_side_east",
+        "uvlock": false
+      },
+      "when": {
+        "east": "true"
+      }
+    },
+    {
+      "apply": {
+        "model": "wsopulence:block/iron_fence_side_south",
+        "uvlock": false
+      },
+      "when": {
+        "south": "true"
+      }
+    },
+    {
+      "apply": {
+        "model": "wsopulence:block/iron_fence_side_west",
+        "uvlock": false
+      },
+      "when": {
+        "west": "true"
+      }
+    }
+  ]
+}

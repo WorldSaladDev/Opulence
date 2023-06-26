@@ -1,16 +1,15 @@
 package io.github.worldsaladdev.wsopulence.initialization;
 
 import io.github.worldsaladdev.wsopulence.Opulence;
-import io.github.worldsaladdev.wsopulence.blocks.CupBlock;
-import io.github.worldsaladdev.wsopulence.blocks.PlateBlock;
-import io.github.worldsaladdev.wsopulence.blocks.TableBlock;
-import io.github.worldsaladdev.wsopulence.blocks.TelescopeBlock;
+import io.github.worldsaladdev.wsopulence.blocks.*;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.DyeColor;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.crafting.RecipeType;
 import net.minecraft.world.level.block.*;
 import net.minecraft.world.level.block.state.BlockBehaviour;
+import net.minecraft.world.level.block.state.properties.BlockSetType;
+import net.minecraft.world.level.block.state.properties.WoodType;
 import net.minecraft.world.level.material.PushReaction;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -25,7 +24,6 @@ public class BlockInitialization {
 
 
     public static final DeferredRegister<Block> BLOCKS = DeferredRegister.create(ForgeRegistries.BLOCKS, Opulence.MODID);
-
 
     //Blocks
     public static final RegistryObject<Block> WHITE_CONCRETE_BRICKS = register("white_concrete_bricks",
@@ -76,7 +74,7 @@ public class BlockInitialization {
     public static final RegistryObject<Block> PINK_CONCRETE_BRICKS = register("pink_concrete_bricks",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.PINK_CONCRETE)), new Item.Properties());
 
-//Porcelain Blocks
+//Building Blocks
     public static final RegistryObject<Block> PORCELAIN_BRICKS = register("porcelain_bricks",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.BRICKS).mapColor(DyeColor.LIGHT_BLUE)), new Item.Properties());
 
@@ -88,8 +86,16 @@ public class BlockInitialization {
 
     public static final RegistryObject<Block> PORCELAIN_BRICK_WALL = register("porcelain_brick_wall",
             () -> new WallBlock(BlockBehaviour.Properties.copy(Blocks.BRICK_WALL).mapColor(DyeColor.LIGHT_BLUE)), new Item.Properties());
+
     public static final RegistryObject<Block> PORCELAIN_TILES = register("porcelain_tiles",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.BRICKS).mapColor(DyeColor.LIGHT_BLUE)), new Item.Properties());
+
+    public static final RegistryObject<Block> IRON_FENCE = register("iron_fence",
+            () -> new FenceBlock(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).dynamicShape().noOcclusion()), new Item.Properties());
+
+    public static final RegistryObject<Block> IRON_FENCE_GATE = register("iron_fence_gate",
+            () -> new FenceGateBlock(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK), WoodType.OAK), new Item.Properties());
+
 
 //Tables
     public static final RegistryObject<Block> OAK_TABLE = register("oak_table",

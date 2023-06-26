@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/template_custom_fence_gate_wall_open",
+  "textures": {
+    "particle": "wsopulence:block/iron_fence_gate_particle",
+    "texture": "wsopulence:block/iron_fence_gate"
+  }
+}

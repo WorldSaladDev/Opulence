@@ -26,6 +26,8 @@
     "wsopulence:porcelain_brick_slab",
     "wsopulence:porcelain_brick_stairs",
     "wsopulence:porcelain_brick_wall",
-    "wsopulence:porcelain_tiles"
+    "wsopulence:porcelain_tiles",
+    "wsopulence:iron_fence",
+    "wsopulence:iron_fence_gate"
   ]
 }

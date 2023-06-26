@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/custom_fence_post",
+  "textures": {
+    "particle": "wsopulence:block/iron_fence_particle",
+    "texture": "wsopulence:block/iron_fence"
+  }
+}

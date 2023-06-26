@@ -15,6 +15,7 @@ public class Opulence {
         BlockInitialization.BLOCKS.register(bus);
         ItemInitialization.ITEMS.register(bus);
         CreativeTabInitialization.CREATIVE_TAB.register(bus);
+        PaintingInitialization.PAINTING_VARIANTS.register(bus);
 
     }
 }
