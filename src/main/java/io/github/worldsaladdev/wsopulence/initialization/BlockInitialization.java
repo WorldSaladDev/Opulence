@@ -137,6 +137,46 @@ public class BlockInitialization {
     public static final RegistryObject<Block> IRON_TABLE = register("iron_table",
             () -> new TableBlock(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).pushReaction(PushReaction.DESTROY).dynamicShape().noOcclusion()), new Item.Properties());
 
+//Chairs
+    public static final RegistryObject<Block> OAK_CHAIR = register("oak_chair",
+            () -> new ChairBlock(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS).pushReaction(PushReaction.DESTROY).ignitedByLava().dynamicShape().noOcclusion()), new Item.Properties(), 300);
+
+    public static final RegistryObject<Block> SPRUCE_CHAIR = register("spruce_chair",
+            () -> new ChairBlock(BlockBehaviour.Properties.copy(Blocks.SPRUCE_PLANKS).pushReaction(PushReaction.DESTROY).ignitedByLava().dynamicShape().noOcclusion()), new Item.Properties(), 300);
+
+    public static final RegistryObject<Block> BIRCH_CHAIR = register("birch_chair",
+            () -> new ChairBlock(BlockBehaviour.Properties.copy(Blocks.BIRCH_PLANKS).pushReaction(PushReaction.DESTROY).ignitedByLava().dynamicShape().noOcclusion()), new Item.Properties(), 300);
+
+    public static final RegistryObject<Block> JUNGLE_CHAIR = register("jungle_chair",
+            () -> new ChairBlock(BlockBehaviour.Properties.copy(Blocks.JUNGLE_PLANKS).pushReaction(PushReaction.DESTROY).ignitedByLava().dynamicShape().noOcclusion()), new Item.Properties(), 300);
+
+    public static final RegistryObject<Block> ACACIA_CHAIR = register("acacia_chair",
+            () -> new ChairBlock(BlockBehaviour.Properties.copy(Blocks.ACACIA_PLANKS).pushReaction(PushReaction.DESTROY).ignitedByLava().dynamicShape().noOcclusion()), new Item.Properties(), 300);
+
+    public static final RegistryObject<Block> DARK_OAK_CHAIR = register("dark_oak_chair",
+            () -> new ChairBlock(BlockBehaviour.Properties.copy(Blocks.DARK_OAK_PLANKS).pushReaction(PushReaction.DESTROY).ignitedByLava().dynamicShape().noOcclusion()), new Item.Properties(), 300);
+
+    public static final RegistryObject<Block> MANGROVE_CHAIR = register("mangrove_chair",
+            () -> new ChairBlock(BlockBehaviour.Properties.copy(Blocks.MANGROVE_PLANKS).pushReaction(PushReaction.DESTROY).ignitedByLava().dynamicShape().noOcclusion()), new Item.Properties(), 300);
+
+    public static final RegistryObject<Block> CHERRY_CHAIR = register("cherry_chair",
+            () -> new ChairBlock(BlockBehaviour.Properties.copy(Blocks.CHERRY_PLANKS).pushReaction(PushReaction.DESTROY).ignitedByLava().dynamicShape().noOcclusion()), new Item.Properties(), 300);
+
+    public static final RegistryObject<Block> BAMBOO_CHAIR = register("bamboo_chair",
+            () -> new ChairBlock(BlockBehaviour.Properties.copy(Blocks.BAMBOO_PLANKS).pushReaction(PushReaction.DESTROY).ignitedByLava().dynamicShape().noOcclusion()), new Item.Properties(), 300);
+
+    public static final RegistryObject<Block> CRIMSON_CHAIR = register("crimson_chair",
+            () -> new ChairBlock(BlockBehaviour.Properties.copy(Blocks.CRIMSON_PLANKS).pushReaction(PushReaction.DESTROY).dynamicShape().noOcclusion()), new Item.Properties());
+
+    public static final RegistryObject<Block> WARPED_CHAIR = register("warped_chair",
+            () -> new ChairBlock(BlockBehaviour.Properties.copy(Blocks.WARPED_PLANKS).pushReaction(PushReaction.DESTROY).dynamicShape().noOcclusion()), new Item.Properties());
+
+    public static final RegistryObject<Block> GLASS_CHAIR = register("glass_chair",
+            () -> new ChairBlock(BlockBehaviour.Properties.copy(Blocks.GLASS).pushReaction(PushReaction.DESTROY).dynamicShape().noOcclusion()), new Item.Properties());
+
+    public static final RegistryObject<Block> IRON_CHAIR = register("iron_chair",
+            () -> new ChairBlock(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).pushReaction(PushReaction.DESTROY).dynamicShape().noOcclusion()), new Item.Properties());
+
 //Dishes
     public static final RegistryObject<Block> IRON_CUP = register("iron_cup",
             () -> new CupBlock(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).pushReaction(PushReaction.DESTROY).dynamicShape().noOcclusion()), new Item.Properties());

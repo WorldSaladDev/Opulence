@@ -9,7 +9,6 @@ import net.minecraftforge.registries.RegistryObject;
 public class PaintingInitialization {
 
     public static final DeferredRegister<PaintingVariant> PAINTING_VARIANTS = DeferredRegister.create(ForgeRegistries.PAINTING_VARIANTS, Opulence.MODID);
-
     public static final RegistryObject<PaintingVariant> VAPORWAVE_SUN = PAINTING_VARIANTS.register("vaporwave_sun", () -> new PaintingVariant(16, 16));
     public static final RegistryObject<PaintingVariant> VAPORWAVE_TREE = PAINTING_VARIANTS.register("vaporwave_tree", () -> new PaintingVariant(16, 32));
     public static final RegistryObject<PaintingVariant> VAPORWAVE_TRIANGLES = PAINTING_VARIANTS.register("vaporwave_triangles", () -> new PaintingVariant(16, 32));

@@ -1,0 +1,10 @@
+{
+    "parent": "wsopulence:block/template/chair",
+    "textures": {
+      "seat_bottom": "wsopulence:block/crimson_chair_seat_bottom",
+      "seat_top": "wsopulence:block/crimson_chair_seat_top",
+      "seat_side": "wsopulence:block/crimson_chair_seat_side",
+      "back_side": "wsopulence:block/crimson_chair_back_side",
+      "back_front": "wsopulence:block/crimson_chair_back_front"
+    }
+  }
