@@ -2,22 +2,23 @@ package io.github.worldsaladdev.wsopulence.initialization;
 
 import io.github.worldsaladdev.wsopulence.Opulence;
 import io.github.worldsaladdev.wsopulence.blocks.*;
-import net.minecraft.world.item.BlockItem;
-import net.minecraft.world.item.DyeColor;
-import net.minecraft.world.item.ItemStack;
+import net.minecraft.ChatFormatting;
+import net.minecraft.network.chat.Component;
+import net.minecraft.sounds.SoundEvents;
+import net.minecraft.world.item.*;
 import net.minecraft.world.item.crafting.RecipeType;
+import net.minecraft.world.level.Level;
 import net.minecraft.world.level.block.*;
 import net.minecraft.world.level.block.state.BlockBehaviour;
-import net.minecraft.world.level.block.state.properties.BlockSetType;
 import net.minecraft.world.level.block.state.properties.WoodType;
 import net.minecraft.world.level.material.PushReaction;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 
-import net.minecraft.world.item.Item;
 import org.jetbrains.annotations.Nullable;
 
+import java.util.List;
 import java.util.function.Supplier;
 
 public class BlockInitialization {
@@ -198,10 +199,59 @@ public class BlockInitialization {
     public static final RegistryObject<Block> TELESCOPE = register("telescope",
             () -> new TelescopeBlock(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS).pushReaction(PushReaction.DESTROY).ignitedByLava().dynamicShape().noOcclusion()), new Item.Properties(), 300);
 
+    public static final RegistryObject<Block> PLAINS_VILLAGER_STATUE = register("plains_villager_statue",
+            () -> new MobStatueBlock(BlockBehaviour.Properties.copy(Blocks.TERRACOTTA).pushReaction(PushReaction.DESTROY).dynamicShape().noOcclusion(), SoundEvents.VILLAGER_AMBIENT), new Item.Properties(), "block.wsopulence.plains_villager_statue.description");
+
+    public static final RegistryObject<Block> DESERT_VILLAGER_STATUE = register("desert_villager_statue",
+            () -> new MobStatueBlock(BlockBehaviour.Properties.copy(Blocks.TERRACOTTA).pushReaction(PushReaction.DESTROY).dynamicShape().noOcclusion(), SoundEvents.VILLAGER_AMBIENT), new Item.Properties(), "block.wsopulence.desert_villager_statue.description");
+
+    public static final RegistryObject<Block> JUNGLE_VILLAGER_STATUE = register("jungle_villager_statue",
+            () -> new MobStatueBlock(BlockBehaviour.Properties.copy(Blocks.TERRACOTTA).pushReaction(PushReaction.DESTROY).dynamicShape().noOcclusion(), SoundEvents.VILLAGER_AMBIENT), new Item.Properties(), "block.wsopulence.jungle_villager_statue.description");
+
+    public static final RegistryObject<Block> SWAMP_VILLAGER_STATUE = register("swamp_villager_statue",
+            () -> new MobStatueBlock(BlockBehaviour.Properties.copy(Blocks.TERRACOTTA).pushReaction(PushReaction.DESTROY).dynamicShape().noOcclusion(), SoundEvents.VILLAGER_AMBIENT), new Item.Properties(), "block.wsopulence.swamp_villager_statue.description");
+
+    public static final RegistryObject<Block> TAIGA_VILLAGER_STATUE = register("taiga_villager_statue",
+            () -> new MobStatueBlock(BlockBehaviour.Properties.copy(Blocks.TERRACOTTA).pushReaction(PushReaction.DESTROY).dynamicShape().noOcclusion(), SoundEvents.VILLAGER_AMBIENT), new Item.Properties(), "block.wsopulence.taiga_villager_statue.description");
+
+    public static final RegistryObject<Block> SNOW_VILLAGER_STATUE = register("snow_villager_statue",
+            () -> new MobStatueBlock(BlockBehaviour.Properties.copy(Blocks.TERRACOTTA).pushReaction(PushReaction.DESTROY).dynamicShape().noOcclusion(), SoundEvents.VILLAGER_AMBIENT), new Item.Properties(), "block.wsopulence.snow_villager_statue.description");
+
+    public static final RegistryObject<Block> SAVANNA_VILLAGER_STATUE = register("savanna_villager_statue",
+            () -> new MobStatueBlock(BlockBehaviour.Properties.copy(Blocks.TERRACOTTA).pushReaction(PushReaction.DESTROY).dynamicShape().noOcclusion(), SoundEvents.VILLAGER_AMBIENT), new Item.Properties(), "block.wsopulence.savanna_villager_statue.description");
+
+    public static final RegistryObject<Block> HOBART_VILLAGER_STATUE = register("hobart_villager_statue",
+            () -> new MobStatueBlock(BlockBehaviour.Properties.copy(Blocks.TERRACOTTA).pushReaction(PushReaction.DESTROY).dynamicShape().noOcclusion(), SoundEvents.VILLAGER_AMBIENT), new Item.Properties(), "block.wsopulence.hobart_villager_statue.description");
+
+    public static final RegistryObject<Block> ZOMBIE_VILLAGER_STATUE = register("zombie_villager_statue",
+            () -> new MobStatueBlock(BlockBehaviour.Properties.copy(Blocks.TERRACOTTA).pushReaction(PushReaction.DESTROY).dynamicShape().noOcclusion(), SoundEvents.ZOMBIE_VILLAGER_AMBIENT), new Item.Properties(), "block.wsopulence.zombie_villager_statue.description");
+
+    public static final RegistryObject<Block> PILLAGER_STATUE = register("pillager_statue",
+            () -> new MobStatueBlock(BlockBehaviour.Properties.copy(Blocks.TERRACOTTA).pushReaction(PushReaction.DESTROY).dynamicShape().noOcclusion(), SoundEvents.PILLAGER_AMBIENT), new Item.Properties(), "block.wsopulence.pillager_statue.description");
+
+    public static final RegistryObject<Block> VINDICATOR_STATUE = register("vindicator_statue",
+            () -> new MobStatueBlock(BlockBehaviour.Properties.copy(Blocks.TERRACOTTA).pushReaction(PushReaction.DESTROY).dynamicShape().noOcclusion(), SoundEvents.VINDICATOR_AMBIENT), new Item.Properties(), "block.wsopulence.vindicator_statue.description");
+
+    public static final RegistryObject<Block> EVOKER_STATUE = register("evoker_statue",
+            () -> new MobStatueBlock(BlockBehaviour.Properties.copy(Blocks.TERRACOTTA).pushReaction(PushReaction.DESTROY).dynamicShape().noOcclusion(), SoundEvents.EVOKER_AMBIENT), new Item.Properties(), "block.wsopulence.evoker_statue.description");
+
+
     //mundane blockitem
     private static <T extends Block> RegistryObject<T> register(String name, Supplier<T> supplier, Item.Properties properties) {
         RegistryObject<T> block = BLOCKS.register(name, supplier);
         ItemInitialization.ITEMS.register(name, () -> new BlockItem(block.get(), properties));
+        return block;
+    }
+
+    //mob statue blockitem
+    private static <T extends Block> RegistryObject<T> register(String name, Supplier<T> supplier, Item.Properties properties, String tooltipTranslationKey) {
+        RegistryObject<T> block = BLOCKS.register(name, supplier);
+        ItemInitialization.ITEMS.register(name, () -> new BlockItem(block.get(), properties) {
+            @Override
+            public void appendHoverText(ItemStack stack, @javax.annotation.Nullable Level level, List<Component> component, TooltipFlag flag) {
+                component.add(Component.translatable(tooltipTranslationKey).withStyle(ChatFormatting.GRAY));
+            }
+        });
         return block;
     }
 

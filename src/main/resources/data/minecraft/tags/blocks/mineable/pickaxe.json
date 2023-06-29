@@ -29,6 +29,18 @@
     "wsopulence:porcelain_brick_wall",
     "wsopulence:porcelain_tiles",
     "wsopulence:iron_fence",
-    "wsopulence:iron_fence_gate"
+    "wsopulence:iron_fence_gate",
+    "wsopulence:plains_villager_statue",
+    "wsopulence:desert_villager_statue",
+    "wsopulence:jungle_villager_statue",
+    "wsopulence:swamp_villager_statue",
+    "wsopulence:taiga_villager_statue",
+    "wsopulence:snow_villager_statue",
+    "wsopulence:savanna_villager_statue",
+    "wsopulence:hobart_villager_statue",
+    "wsopulence:zombie_villager_statue",
+    "wsopulence:pillager_statue",
+    "wsopulence:vindicator_statue",
+    "wsopulence:evoker_statue"
   ]
 }

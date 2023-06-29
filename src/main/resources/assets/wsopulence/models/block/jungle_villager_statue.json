@@ -1,0 +1,7 @@
+{
+    "parent": "wsopulence:block/template/villager_statue_arms_crossed",
+    "textures": {
+      "body": "wsopulence:block/jungle_villager_statue_body",
+      "head": "wsopulence:block/villager_statue_head"
+    }
+  }

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "wsopulence:mob_statue",
+  "ingredients": [
+    {
+      "item": "wsopulence:porcelain_ball"
+    },
+    {
+      "item": "wsopulence:porcelain_ball"
+    },
+    {
+      "item": "minecraft:emerald"
+    },
+    {
+      "tag": "minecraft:cocoa_bean"
+    }
+  ],
+  "result": {
+    "item": "wsopulence:jungle_villager_statue"
+  }
+}

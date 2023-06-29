@@ -7,16 +7,36 @@
       "when": {
         "OR": [
           {
-            "north": "true"
-          },
-          {
-            "south": "true"
-          },
-          {
+            "north": "true",
             "east": "true"
           },
           {
+            "south": "true",
+            "east": "true"
+          },
+          {
+            "north": "true",
             "west": "true"
+          },
+          {
+            "south": "true",
+            "west": "true"
+          },
+          {
+            "east": "false",
+            "west": "true"
+          },
+          {
+            "east": "true",
+            "west": "false"
+          },
+          {
+            "south": "true",
+            "north": "false"
+          },
+          {
+            "south": "false",
+            "north": "true"
           }
         ]
       }

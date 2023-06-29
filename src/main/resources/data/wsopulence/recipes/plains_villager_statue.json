@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "wsopulence:mob_statue",
+  "ingredients": [
+    {
+      "item": "wsopulence:porcelain_ball"
+    },
+    {
+      "item": "wsopulence:porcelain_ball"
+    },
+    {
+      "item": "minecraft:emerald"
+    },
+    {
+      "tag": "minecraft:flowers"
+    }
+  ],
+  "result": {
+    "item": "wsopulence:plains_villager_statue"
+  }
+}
