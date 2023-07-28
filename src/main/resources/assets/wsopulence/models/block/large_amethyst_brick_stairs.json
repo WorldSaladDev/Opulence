@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/stairs",
+  "textures": {
+    "bottom": "wsopulence:block/large_amethyst_bricks",
+    "side": "wsopulence:block/large_amethyst_bricks",
+    "top": "wsopulence:block/large_amethyst_bricks"
+  }
+}

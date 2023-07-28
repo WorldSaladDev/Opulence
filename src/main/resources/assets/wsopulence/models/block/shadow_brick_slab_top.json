@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab_top",
+  "textures": {
+    "bottom": "wsopulence:block/shadow_bricks",
+    "side": "wsopulence:block/shadow_bricks",
+    "top": "wsopulence:block/shadow_bricks"
+  }
+}

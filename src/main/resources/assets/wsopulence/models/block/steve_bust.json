@@ -1,0 +1,9 @@
+{
+	"parent": "wsopulence:block/template/bust",
+	"textures": {
+		"base": "wsopulence:block/bust_base",
+		"arm": "wsopulence:block/steve_bust_arm",
+		"head": "wsopulence:block/steve_bust_head",
+		"torso": "wsopulence:block/steve_bust_torso"
+	}
+}

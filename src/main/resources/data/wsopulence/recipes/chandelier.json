@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "%$%",
+    "%#%"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:iron_ingot"
+    },
+    "$": {
+      "item": "minecraft:chain"
+    },
+    "%": {
+      "tag": "minecraft:candles"
+    }
+  },
+  "result": {
+    "item": "wsopulence:chandelier"
+  }
+}

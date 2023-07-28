@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "wsopulence:shadow_bricks"
+    }
+  },
+  "result": {
+    "item": "wsopulence:shadow_brick_stairs",
+    "count": 4
+  }
+}

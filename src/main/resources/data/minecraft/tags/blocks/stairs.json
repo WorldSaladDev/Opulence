@@ -1,6 +1,11 @@
 {
   "replace": false,
   "values": [
-    "wsopulence:porcelain_brick_stairs"
+    "wsopulence:porcelain_brick_stairs",
+    "wsopulence:shadow_brick_stairs",
+    "wsopulence:large_amethyst_brick_stairs",
+    "wsopulence:small_amethyst_brick_stairs",
+    "wsopulence:tuff_brick_stairs",
+    "wsopulence:calcite_brick_stairs"
   ]
 }

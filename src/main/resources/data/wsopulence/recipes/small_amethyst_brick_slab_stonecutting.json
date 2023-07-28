@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "wsopulence:small_amethyst_bricks"
+  },
+  "result": "wsopulence:small_amethyst_brick_slab"
+}

@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "wsopulence:block/tuff_brick_slab"
+    },
+    "type=double": {
+      "model": "wsopulence:block/tuff_bricks"
+    },
+    "type=top": {
+      "model": "wsopulence:block/tuff_brick_slab_top"
+    }
+  }
+}

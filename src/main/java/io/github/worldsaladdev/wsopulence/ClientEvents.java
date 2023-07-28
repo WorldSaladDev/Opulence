@@ -15,5 +15,6 @@ public class ClientEvents {
         ItemBlockRenderTypes.setRenderLayer(BlockInitialization.GLASS_CUP.get(), RenderType.cutout());
         ItemBlockRenderTypes.setRenderLayer(BlockInitialization.GLASS_TABLE.get(), RenderType.cutout());
         ItemBlockRenderTypes.setRenderLayer(BlockInitialization.GLASS_CHAIR.get(), RenderType.cutout());
+        ItemBlockRenderTypes.setRenderLayer(BlockInitialization.CHANDELIER.get(), RenderType.cutout());
     }
 }

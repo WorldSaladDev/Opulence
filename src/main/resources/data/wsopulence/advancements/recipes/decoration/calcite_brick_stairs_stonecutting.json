@@ -1,0 +1,48 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_calcite_bricks": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "wsopulence:calcite_bricks"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_result": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "wsopulence:calcite_brick_stairs"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "wsopulence:calcite_brick_stairs_stonecutting"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_calcite_bricks",
+      "has_result",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "wsopulence:calcite_brick_stairs_stonecutting"
+    ]
+  },
+  "sends_telemetry_event": false
+}

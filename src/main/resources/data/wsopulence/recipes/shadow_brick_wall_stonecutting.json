@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "wsopulence:shadow_bricks"
+  },
+  "result": "wsopulence:shadow_brick_wall"
+}

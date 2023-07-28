@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "##",
+    "##"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:small_amethyst_bricks"
+    }
+  },
+  "result": {
+    "item": "wsopulence:large_amethyst_bricks",
+    "count": 4
+  }
+}

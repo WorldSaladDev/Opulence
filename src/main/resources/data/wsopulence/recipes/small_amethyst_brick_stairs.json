@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "wsopulence:small_amethyst_bricks"
+    }
+  },
+  "result": {
+    "item": "wsopulence:small_amethyst_brick_stairs",
+    "count": 4
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "hanging=false": {
+      "model": "wsopulence:block/chandelier"
+    },
+    "hanging=true": {
+      "model": "wsopulence:block/chandelier_hanging"
+    }
+  }
+}

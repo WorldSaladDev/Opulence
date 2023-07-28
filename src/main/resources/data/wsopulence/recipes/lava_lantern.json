@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "#$#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:nether_brick"
+    },
+    "$": {
+      "item": "minecraft:blaze_powder"
+    }
+  },
+  "result": {
+    "item": "wsopulence:lava_lantern"
+  }
+}

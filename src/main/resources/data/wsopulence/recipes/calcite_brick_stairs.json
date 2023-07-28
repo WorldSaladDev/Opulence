@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "wsopulence:calcite_bricks"
+    }
+  },
+  "result": {
+    "item": "wsopulence:calcite_brick_stairs",
+    "count": 4
+  }
+}

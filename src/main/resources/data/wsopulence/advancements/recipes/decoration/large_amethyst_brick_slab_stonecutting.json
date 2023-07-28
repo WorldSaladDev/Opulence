@@ -1,0 +1,48 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_large_amethyst_bricks": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "wsopulence:large_amethyst_bricks"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_result": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "wsopulence:large_amethyst_brick_slab"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "wsopulence:large_amethyst_brick_slab_stonecutting"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_large_amethyst_bricks",
+      "has_result",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "wsopulence:large_amethyst_brick_slab_stonecutting"
+    ]
+  },
+  "sends_telemetry_event": false
+}

@@ -1,0 +1,48 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_small_amethyst_bricks": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "wsopulence:small_amethyst_bricks"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_result": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "wsopulence:small_amethyst_brick_slab"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "wsopulence:small_amethyst_brick_slab"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_small_amethyst_bricks",
+      "has_result",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "wsopulence:small_amethyst_brick_slab"
+    ]
+  },
+  "sends_telemetry_event": false
+}

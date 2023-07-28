@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " $ ",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:smooth_stone_slab"
+    },
+    "$": {
+      "item": "minecraft:stone"
+    }
+  },
+  "result": {
+    "item": "wsopulence:blank_bust"
+  }
+}

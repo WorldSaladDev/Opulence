@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "wsopulence:block/small_amethyst_brick_slab"
+    },
+    "type=double": {
+      "model": "wsopulence:block/small_amethyst_bricks"
+    },
+    "type=top": {
+      "model": "wsopulence:block/small_amethyst_brick_slab_top"
+    }
+  }
+}

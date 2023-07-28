@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "wsopulence:tuff_bricks"
+  },
+  "result": "wsopulence:tuff_brick_wall"
+}

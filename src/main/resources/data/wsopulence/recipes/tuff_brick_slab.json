@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "wsopulence:tuff_bricks"
+    }
+  },
+  "result": {
+    "item": "wsopulence:tuff_brick_slab",
+    "count": 6
+  }
+}

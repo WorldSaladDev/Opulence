@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "wsopulence:large_amethyst_bricks"
+  },
+  "result": "wsopulence:large_amethyst_brick_wall"
+}
