@@ -1,6 +1,0 @@
-{
-    "parent": "wsopulence:block/template/plate",
-    "textures": {
-      "plate": "wsopulence:block/white_plate"
-    }
-  }

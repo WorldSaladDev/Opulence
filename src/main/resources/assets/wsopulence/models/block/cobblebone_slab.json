@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab",
+  "textures": {
+    "bottom": "wsopulence:block/cobblebones",
+    "side": "wsopulence:block/cobblebones",
+    "top": "wsopulence:block/cobblebones"
+  }
+}

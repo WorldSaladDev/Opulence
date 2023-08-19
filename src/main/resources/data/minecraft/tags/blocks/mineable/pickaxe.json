@@ -5,7 +5,6 @@
     "wsopulence:iron_chair",
     "wsopulence:iron_cup",
     "wsopulence:ceramic_cup",
-    "wsopulence:white_plate",
     "wsopulence:telescope",
     "wsopulence:white_concrete_bricks",
     "wsopulence:light_gray_concrete_bricks",
@@ -70,6 +69,18 @@
     "wsopulence:blank_bust",
     "wsopulence:alex_bust",
     "wsopulence:lava_lantern",
-    "wsopulence:chandelier"
+    "wsopulence:chandelier",
+    "wsopulence:candelabra",
+    "wsopulence:short_pot",
+    "wsopulence:tall_pot",
+    "wsopulence:medium_pot",
+    "wsopulence:cobblebones",
+    "wsopulence:cobblebone_slab",
+    "wsopulence:cobblebone_stairs",
+    "wsopulence:cobblebone_wall",
+    "wsopulence:cobblebone_bricks",
+    "wsopulence:cobblebone_brick_slab",
+    "wsopulence:cobblebone_brick_stairs",
+    "wsopulence:cobblebone_brick_wall"
   ]
 }

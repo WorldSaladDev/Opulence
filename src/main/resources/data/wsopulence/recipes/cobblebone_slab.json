@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "wsopulence:cobblebones"
+    }
+  },
+  "result": {
+    "item": "wsopulence:cobblebone_slab",
+    "count": 6
+  }
+}

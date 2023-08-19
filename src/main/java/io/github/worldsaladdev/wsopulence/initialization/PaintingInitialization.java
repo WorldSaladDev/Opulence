@@ -20,4 +20,6 @@ public class PaintingInitialization {
     public static final RegistryObject<PaintingVariant> ABSTRACT_PATH = PAINTING_VARIANTS.register("abstract_path", () -> new PaintingVariant(32, 16));
     public static final RegistryObject<PaintingVariant> ABSTRACT_SPLATTER = PAINTING_VARIANTS.register("abstract_splatter", () -> new PaintingVariant(16, 16));
     public static final RegistryObject<PaintingVariant> ZDZISLAW = PAINTING_VARIANTS.register("zdzislaw", () -> new PaintingVariant(16, 32));
+    public static final RegistryObject<PaintingVariant> CHICKEN_BLUES = PAINTING_VARIANTS.register("chicken_blues", () -> new PaintingVariant(32, 16));
+    public static final RegistryObject<PaintingVariant> SPACE_BULLET = PAINTING_VARIANTS.register("space_bullet", () -> new PaintingVariant(64, 64));
 }

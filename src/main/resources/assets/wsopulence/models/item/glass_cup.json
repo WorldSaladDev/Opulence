@@ -1,3 +1,6 @@
 {
-  "parent": "wsopulence:block/glass_cup"
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "wsopulence:item/glass_cup"
+  }
 }

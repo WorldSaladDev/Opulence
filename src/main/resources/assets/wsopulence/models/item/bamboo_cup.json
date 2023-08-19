@@ -1,3 +1,6 @@
 {
-  "parent": "wsopulence:block/bamboo_cup"
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "wsopulence:item/bamboo_cup"
+  }
 }

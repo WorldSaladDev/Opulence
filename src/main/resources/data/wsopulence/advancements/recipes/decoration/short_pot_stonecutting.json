@@ -1,0 +1,48 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_terracotta": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "wsopulence:terracotta"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_result": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "wsopulence:short_pot"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "wsopulence:short_pot_stonecutting"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_terracotta",
+      "has_result",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "wsopulence:short_pot_stonecutting"
+    ]
+  },
+  "sends_telemetry_event": false
+}

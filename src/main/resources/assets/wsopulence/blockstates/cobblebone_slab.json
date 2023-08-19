@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "wsopulence:block/cobblebone_slab"
+    },
+    "type=double": {
+      "model": "wsopulence:block/cobblebones"
+    },
+    "type=top": {
+      "model": "wsopulence:block/cobblebone_slab_top"
+    }
+  }
+}

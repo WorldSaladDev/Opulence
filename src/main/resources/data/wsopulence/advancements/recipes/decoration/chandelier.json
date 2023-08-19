@@ -1,13 +1,23 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_iron_ingot": {
+    "has_iron_nugget": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecraft:iron_ingot"
+              "minecraft:iron_nugget"
             ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_candle": {
+      "conditions": {
+        "items": [
+          {
+            "tag": "minecraft:candles"
           }
         ]
       },
@@ -34,7 +44,8 @@
   },
   "requirements": [
     [
-      "has_iron_ingot",
+      "has_iron_nugget",
+      "has_candle",
       "has_result",
       "has_the_recipe"
     ]
